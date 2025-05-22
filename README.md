@@ -30,6 +30,10 @@ Modifica las siguientes variables en la primera celda del script:
 * **Contenido Dinámico (JavaScript):** El script utiliza `requests` para obtener el HTML. Esto solo descarga el contenido inicial servido por el servidor. Si el contenido principal del sitio se carga *después* usando JavaScript, este script no detectará cambios en ese contenido cargado dinámicamente.
 * **Ejecución en Colab:** Google Colab no es un servicio de hosting 24/7. Las sesiones son temporales. Este script está pensado para ejecución manual o activada externamente de forma periódica, no para monitoreo continuo.
 
-## Autor
+## Licencia
 
+Este proyecto está disponible bajo la [Licencia MIT](LICENSE).  
+Se permite su uso, copia, modificación y redistribución con o sin fines comerciales, siempre que se mantenga la atribución correspondiente.
+
+## Autor
 Juan Draghi - Biblioteca del Consejo Profesional de Arquitectura y Urbanismo (con la asistencia de Gemini)
